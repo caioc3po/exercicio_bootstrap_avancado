@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: rgb(224, 224, 224);
+        }
+
+        .titulo {
+            display: flex;
+            justify-content: center;
+        }
+
+        .titulo h1 {
+            font-size: 65px;
+        }
+
+        .carousel .carousel-inner {
+            border: 5px solid rgba(0, 0, 0, 0.562);
+            border-radius: 50px;
+        }
+
+        .carousel .carousel-inner .carousel-item img {
+            height: 700px;
+            width: 100%;
+        }
+
+        .carousel .carousel-inner{
+            width: 100%;
+            max-width: 1200px;
+            margin: 50px auto;
+        }
+
+        .col-lg-4 {
+            margin: 25px 0;
+        }
+
+        @media screen and (max-width: 1024px ) {
+            .carousel .carousel-inner .carousel-item img {
+                height: 300px;
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .titulo h1 {
+                font-size: 35px;
+                margin-top: 20px
+            }
+
+            .carousel .carousel-inner{
+            margin-top: 20px;
+        }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="titulo">
+        <h1>O Rio e suas belezas</h1>
+    </div>
+    
+
+    <div class="carousel carousel-slide slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/1200px-Cidade_Maravilhosa.jpg" alt="Cristo Redentor">
+                <div class="carousel-caption">
+                    <h2>Cristo Redentor</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://a.cdn-hotels.com/gdcs/production2/d1700/2424b84c-5372-4434-b914-3974bcce0d3f.jpg" alt="Copacabana">
+                <div class="carousel-caption">
+                    <h2>Copacabana</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item">
+                <img src="https://i0.statig.com.br/bancodeimagens/3e/20/al/3e20al33r15ohb2ifqnfzsr8t.jpg" alt="Pão de açucar">
+                <div class="carousel-caption">
+                    <h2>Pão de açúcar</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-4 col-12 col-sm-6">
+                <div class="card text-bg-dark">
+                    <img src="https://magazine.zarpo.com.br/wp-content/uploads/2022/12/pontos-turisticos-rio-de-janeiro_pao-de-acucar.jpg" alt="">
+                    <div class="card-header">
+                        Pão de açúcar
+                    </div>
+                    <div class="card-body">
+                        Um marco do Rio de Janeiro que atrai turistas do mundo. O Pão de Açúcar é um complexo de morros que fica situado no bairro da Urca, abrigando tesouros naturais que são o Morro do Pão de Açúcar e o Morro da Urca. A atração não só é uma das mais visitadas na cidade como também do país e garante lá do alto um view espetacular.                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 col-sm-6">
+                <div class="card text-bg-dark">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Cidade_Maravilhosa.jpg/1200px-Cidade_Maravilhosa.jpg" alt="">
+                    <div class="card-header">
+                        Cristo Redentor
+                    </div>
+                    <div class="card-body">
+                        No topo do morro do Corcovado, a mais de 700 m acima do nível do mar. É ali que fica um dos símbolos mais importantes não só do Rio de Janeiro, mas também de todo o Brasil: o Cristo Redentor. É quase impossível desassociar a imagem desse ícone, inaugurado em 1931, da Cidade Maravilhosa. Em estilo art déco, a estátua foi quase toda construída no Brasil, exceto as partes da cabeça e das mãos, que foram feitas na França.                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 col-sm-6">
+                <div class="card text-bg-dark">
+                    <img src="https://magazine.zarpo.com.br/wp-content/uploads/2022/12/pontos-turisticos-rio-de-janeiro_bomdinho.jpg" alt="">
+                    <div class="card-header">
+                        Bondinho de Santa Teresa
+                    </div>
+                    <div class="card-body">
+                        Essa atmosfera apaixonante traduz exatamente a sensação de fazer o percurso a bordo do charmoso bondinho, atração histórica que integra o cenário carioca e é considerado muito mais do que um simples meio de transporte: é a única linha ativa de bondes restante no Rio. Ligando o centro da cidade ao bairro de Santa Teresa, famoso pelas ladeiras e casarões históricos, o bondinho parte da Estação Carioca, situada na Rua Lélio Gama, e segue até o Dois Irmãos.
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 col-sm-6">
+                <div class="card text-bg-dark">
+                    <img src="https://magazine.zarpo.com.br/wp-content/uploads/2022/12/pontos-turisticos-rio-de-janeiro_escadaria-selaron.jpg" alt="">
+                    <div class="card-header">
+                        Escadaria Selarón
+                    </div>
+                    <div class="card-body">
+                        Fã que é fã do Rio de Janeiro tem pelo menos uma foto tirada na Escadaria Selarón, obra de arte urbana produzida pelo artista chileno Jorge Selarón. São mais de 200 degraus, todos revestidos com cerca de dois mil azulejos e ladrilhos vindos de 60 países diferentes – alguns foram presentes de estrangeiros e outros foram pintados pelo próprio artista, como os desenhos de uma mulher africana grávida que, até hoje, ninguém desvendou a história por trás. 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 col-sm-6">
+                <div class="card text-bg-dark">
+                    <img src="https://magazine.zarpo.com.br/wp-content/uploads/2022/12/pontos-turisticos-rio-de-janeiro_paruqe-lage.jpg" alt="">
+                    <div class="card-header">
+                        Parque Lage
+                    </div>
+                    <div class="card-body">
+                        Mais um ponto turístico imperdível no Rio de Janeiro: é quase obrigatório reservar um tempo para conferir as belezas do Parque Lage, localizado aos pés do Corcovado. Tombado como Patrimônio Histórico e Paisagístico pelo IPHAN, este local era um antigo engenho de açúcar na época colonial do Brasil e foi restaurado, algum tempo depois, por um paisagista inglês que se inspirou nos jardins e palácios europeus. 
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-12 col-sm-6">
+                <div class="card text-bg-dark">
+                    <img src="https://magazine.zarpo.com.br/wp-content/uploads/2022/12/pontos-turisticos-rio-de-janeiro_museu-do-amanha.jpg" alt="">
+                    <div class="card-header">
+                        Museu do Amanhã
+                    </div>
+                    <div class="card-body">
+                        Inaugurado em 2015 na Praça Mauá, zona portuária da capital, o museu é interativo e aborda questões interessantes sobre ciência e tecnologia, com exposições permanentes e itinerantes a respeito do futuro da Terra e o meio ambiente. Outros destaques são o paisagismo da propriedade, desenvolvido por Roberto Burle Max, e a arquitetura sustentável que detém o selo de Liderança em Energia e Projeto Ambiental, do Green Building. 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
